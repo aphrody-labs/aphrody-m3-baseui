@@ -33,7 +33,7 @@
   "scripts": {
     "test": "bun test ./test/",
     "typecheck": "bun check -p tsconfig.json --noEmit",
-    "lint": "oxlint src test"
+    "lint": "bun lint src test"
   },
   "dependencies": {
     "@base-ui/react": "catalog:"
@@ -44,8 +44,7 @@
     "@types/react": "catalog:",
     "@types/react-dom": "catalog:",
     "react": "catalog:",
-    "react-dom": "catalog:",
-    "typescript": "catalog:"
+    "react-dom": "catalog:"
   },
   "peerDependencies": {
     "@aphrody/m3-tokens": "workspace:*",
